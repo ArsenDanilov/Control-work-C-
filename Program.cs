@@ -34,3 +34,16 @@ void PrintNewArrayString(string[]massiv)
         }
     }
 }
+
+
+void ControlTask()
+{
+    int size = 6;
+    string[] massiv = new string[size];
+    FillArrayString(massiv);
+    PrintArrayString(massiv);
+    PrintNewArrayString(massiv);
+
+
+}
+ControlTask();
