@@ -20,4 +20,17 @@ void PrintArrayString(string[]massiv)
     }
 }
 
-
+void PrintNewArrayString(string[]massiv)
+{
+    int length = massiv.Length;
+    Console.WriteLine();
+    Console.WriteLine();
+    Console.WriteLine("Вывод нового массива: ");
+    for (int i = 0; i < massiv.Length; i++)
+    {
+        if(massiv[i].Length <= 3)
+        {
+            Console.Write(massiv[i] + "  ");
+        }
+    }
+}
