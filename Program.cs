@@ -14,7 +14,7 @@ void PrintArrayString(string[]massiv)
     Console.WriteLine();
     Console.WriteLine();
     Console.WriteLine("Вывод первоначального массива: ");
-    for (int i = 0; i < massiv.Length; i++)
+    for (int i = 0; i < length; i++)
     {
          Console.Write(massiv[i] + "  ");
     }
@@ -38,7 +38,7 @@ void PrintNewArrayString(string[]massiv)
 
 void ControlTask()
 {
-    int size = 6;
+    int size = Convert.ToInt32(Console.ReadLine());
     string[] massiv = new string[size];
     FillArrayString(massiv);
     PrintArrayString(massiv);
