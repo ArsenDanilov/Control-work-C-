@@ -7,3 +7,17 @@
         massiv[i] = Console.ReadLine();
     }
 }
+
+void PrintArrayString(string[]massiv)
+{
+    int length = massiv.Length;
+    Console.WriteLine();
+    Console.WriteLine();
+    Console.WriteLine("Вывод первоначального массива: ");
+    for (int i = 0; i < massiv.Length; i++)
+    {
+         Console.Write(massiv[i] + "  ");
+    }
+}
+
+
